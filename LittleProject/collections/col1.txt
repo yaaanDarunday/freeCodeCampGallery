@@ -1,0 +1,53 @@
+<div class="project-body first-body">
+                  <h1 id="title1">Survey Form</h1>
+                  <p id="description1">A survey form for users to fill up.</p>
+                  <form id="survey-form" action="index.html" method="POST">
+                      <fieldset>
+                      <label id="name-label" for="name">Name: <input type="text" id="name" placeholder="John Doe" required></label>
+                      <label id="email-label" for="email">Email: <input type="email" id="email" placeholder="johndoe123@gmail.com" required/></label>
+                      <label id="number-label" for="number">Age: <input type="number" id="number" min="1" max="100" placeholder="1-100" required></label>
+                      </fieldset>
+                      <hr>
+                      <fieldset>
+                      <legend>What section are you in?</legend>
+                      <select id="dropdown" required>
+                          <option value="">Select One</option>
+                          <option value="A">Section A</option>
+                          <option value="B">Section B</option>
+                          <option value="C">Section C</option>
+                      </select>
+                      </fieldset>
+                      <hr>
+                      <fieldset>
+                      <legend>What is your gender?</legend>
+                      <label for="male"><input id="male" class="inline" type="radio" name="gender" value="Male"/> Male
+                      </label>
+                      <label for="female"><input id="female" class="inline" type="radio" name="gender" value="Female"/> Female
+                      </label>
+                      <label for="other"><input id="other" class="inline" type="radio" name="gender" value="other" checked/> other
+                      </label>
+                      </fieldset>
+                      <hr>
+                      <fieldset>
+                      <legend>What field are you interested in?</legend>
+                      <label> 
+                          <input class="inline" type="checkbox" value="front-end" checked/> Front-End
+                      </label>
+                      <label>
+                          <input class="inline" type="checkbox" value="back-end"> Back-End
+                      </label> 
+                      <label>
+                          <input class="inline" type="checkbox" value="fullstack"> Fullstack
+                      </label> 
+                      </fieldset>
+                      <hr>
+                      <fieldset>
+                      <legend>What made you enroll in this course?</legend>
+                      <textarea rows="4" cols="30" placeholder="Because I want to be a programmer..."></textarea>
+                      </fieldset>
+
+                      <button type="submit" id="submit-form">
+                      Submit
+                      </button>
+                  </form>
+              </div>

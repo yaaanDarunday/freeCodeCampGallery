@@ -1,0 +1,249 @@
+@font-face {
+    font-family: 'mHead';
+    src: url('fonts/saxmono.woff');
+}
+
+@font-face {
+    font-family: 'lHead';
+    src: url('fonts/montserrat/Montserrat-Medium.woff');
+}
+
+@font-face {
+    font-family: 'rHead';
+    src: url('fonts/poppins/Poppins-Bold.ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #eee;
+    color: #101010;
+
+    font-family: 'Inter';
+}
+
+body > div {
+    margin-bottom: 160px;
+
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero .hero-head {
+    margin: 0px 20px 0px 20px;
+    width: 600px;
+
+    position: absolute;
+    top: 15%;
+
+    font-size: 100px;
+    text-align: center;
+    letter-spacing: -2.5px;
+    
+    text-align: left;
+    line-height: 120px;
+}
+
+.hero .hero-head .l-head {
+    font-family: 'lHead';
+    letter-spacing: -1.5px;
+}
+
+.hero .hero-head .m-head {
+    font-family: 'mHead';
+    color: #0a0a23;
+}
+
+.hero .hero-head .r-head {
+    font-family: 'rHead';
+    letter-spacing: 16px;
+}
+
+.hero .hero-text {
+    width: 450px;
+
+    position: absolute;
+    bottom: 3.5%;
+
+    font-size: 1rem;
+    text-align: center;
+    line-height: 26px;
+}
+
+.gallery{
+    height: 100vh;
+    width: 100%;
+
+    padding: 30px 30px 60px 30px;
+
+    position: relative;
+}
+
+.gallery-head {
+    margin-bottom: 60px;
+}
+
+.tabs {
+    margin: 0;
+
+    height: 50px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+
+    background-color: #272727;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.tab {
+    margin: 0;
+    padding: 16px 32px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: #ffff;
+    letter-spacing: 1.5px;
+}
+
+.collections {
+    width: 100%;
+    height: calc(100vh - 30px);
+
+    padding: 0 10px;
+
+    background-color: #272727;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+
+    overflow-y: auto;
+}
+
+.collection1 {
+    display: none;
+}
+
+.collection2 {
+    display: none;
+}
+
+.collection3 {
+    display: block;
+}
+
+.collection4 {
+    display: none;
+
+    background-color: #ffff;
+}
+
+.collection5 {
+    display: none;
+}
+
+.about {
+    height: 100%;
+    width: 100%;
+
+    padding: 0 150px;
+    margin-top: 300px;
+    margin-bottom: 300px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.about-info {
+    margin-bottom: 50px;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+
+.about-heading {
+    width: 650px;
+
+    font-size: 55px;
+}
+
+.about-text {
+    width: 450px;
+
+    line-height: 32px;
+    font-size: 20px;
+
+    align-self: flex-end;
+}
+
+.certificate-img {
+    justify-self: center;
+
+}
+
+.footer {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-heading {
+    margin-bottom: 32px;
+
+    font-size: 50px;
+    letter-spacing: -1.5px;
+}
+
+.footer-text {
+    font-size: 20px;
+}
+
+.messenger-logo {
+    height: 25px;
+    width: 25px;
+}
+
+.messenger-link {
+    border: none !important;
+    text-decoration: none;
+    border: none;
+    margin-top: 16px;
+}
+
+/* scroll style */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}

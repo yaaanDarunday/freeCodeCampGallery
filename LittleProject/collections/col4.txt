@@ -1,0 +1,24 @@
+<header id="header">
+      <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" width="300">
+      <nav id="nav-bar">
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#about">About Us</a>
+        <a class="nav-link" href="#form">Our Contacts</a>
+      </nav>
+    </header>
+
+    <div class="home" id="home">
+      <h1>Welcome to Original Trombones</h1>
+      <p> where quality craftsmanship meets the perfect sound!</p>
+    </div>
+
+    <div clas="about" name="about" id="about">
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/watch?v=mJaX4ZpfULM&pp=ygUNdHJvbWJvbmUgcm9jaw%3D%3D" id="video"></iframe>
+      </div>
+    </div>
+    
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input type="email" id="email" placeholder="Your email here" name="email">
+      <input id="submit" type="submit" value="Start now"  >
+    </form> 

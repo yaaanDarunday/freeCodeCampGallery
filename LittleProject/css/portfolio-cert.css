@@ -1,0 +1,123 @@
+.main5 {
+    height: 100vh;
+    color: linen;
+    background-color: rgb(10, 20, 30);
+}
+
+.main5-container {
+    position: relative;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  #navbar5 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: linen;
+    color: rgb(10, 20, 30);
+    padding: 20px 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+  }
+  
+  .brand-logo {
+    margin: 0;
+  }
+  
+  .nav-links5 {
+    display: flex;
+    column-gap: 16px;
+    margin-right: 10px;
+  }
+  
+  .nav-links5 a {
+    text-decoration: none;
+    color: rgb(10, 20, 30);
+    font-weight: bold;
+    border: none;
+  }
+  
+  .main5 {
+    margin-top: 100px;
+    padding: 20px;
+    flex: 1;
+  }
+  
+  #welcome-section {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  #welcome-section h1 {
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+  }
+  
+
+  hr {
+    margin: 100px 0px;
+  }
+
+  #projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    background-color: linen;
+    padding: 16px;
+  }
+  
+  .project {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+    border: 2px black solid;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .project-title {
+    color: rgb(10, 20, 30);
+    margin-bottom: 10px;
+  }
+  
+  #profile-link {
+    display: inline;
+    color: linen;
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  footer {
+    margin-top: 50px;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  footer a {
+    color: rgb(10, 20, 30);
+    text-decoration: underline;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    #projects {
+      flex-direction: column;
+    }
+  
+    .project {
+      width: 100%;
+    }
+  }
+  
