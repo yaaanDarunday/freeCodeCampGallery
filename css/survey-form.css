@@ -1,0 +1,70 @@
+#title1, #description1 {
+    text-align: center;
+  }
+  
+  #title1{
+    padding: 25px;
+    margin-bottom: 16px; 
+    color: #fff;
+  }
+  
+  #description1{
+    margin-top: 0;
+    margin-bottom: 2em;
+    color: #fff;
+  }
+  
+  form{
+    height: 100%;
+    width: 350px;
+    margin: 20px auto;
+    border-radius: 8px;
+    color: #fff;
+  }
+  
+  fieldset {
+    margin-bottom: 25px;
+    border: none;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input, select, textarea{
+    width: 100%;
+    margin: 8px 0 1em 0;
+    padding: 8px;
+    color: #EEEEEE;
+    border: none;
+    border-radius: 2px;
+    background-color: #8E1616;
+  }
+  
+  legend, label {
+    font-size: 18px;
+  }
+  
+  .inline {
+    width: unset;
+  }
+  
+  #submit-form{
+    display: block;
+    width: 100%;
+    margin: 2em auto;
+    padding: 8px 64px;
+    background-color: #8E1616;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  hr {
+    margin-bottom: 2.5em;
+  }
+  
+  ::placeholder {
+    color: #EEEEEE90
+  }

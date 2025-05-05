@@ -1,0 +1,44 @@
+    <header id="navbar">
+      <h1 class="brand-logo">YM</h1>
+      <nav class="nav-links">
+        <a href="#welcome-section">Who I am</a>
+        <a href="#projects">My Projects</a>
+        <a href="#find-me">My Profile</a>
+      </nav>
+    </header>
+
+    <div class="main">
+        <div id="welcome-section">
+          <h1>Welcome to my personal protfolio</h1>
+          <p>I am a Yan, a Web Developer from philippines.</p>
+        </div>
+        
+        <hr>
+        <div id="projects">
+          <p class="project-title"></p>
+          <div class="project 1 project-tile">
+            <h2 class="project-title">Project 1</h2>
+            <a href="https://ph.pinterest.com/search/pins/?q=retro&rs=typed" target="_blank"><button>See more</button></a>
+          </div>
+
+          <div class="project 2 project-title">
+            <h2 class="project-title">Project 2</h2>
+            <a href="https://ph.pinterest.com/search/pins/?q=retro&rs=typed" target="_blank"><button>See more</button></a>
+          </div>
+
+          <div class="project 3 project-title">
+            <h2 class="project-title">Project 3</h2>
+            <a href="https://ph.pinterest.com/search/pins/?q=retro&rs=typed" target="_blank"><button>See more</button></a>
+          </div>
+
+          <div class="project 4 project-title">
+            <h2 class="project-title">Project 4</h2>
+            <a href="https://ph.pinterest.com/search/pins/?q=retro&rs=typed" target="_blank"><button>See more</button></a>
+          </div>
+        </div>
+        <hr>
+    </div>
+    
+    <footer id="find-me">
+      <p>You can check my profile <a id="profile-link" href="https://www.freecodecamp.org/ymWebDev" target="_blank">here</a>.</p>
+    </footer>
